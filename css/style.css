@@ -287,3 +287,52 @@ p {
   font-family: Georgia, "Times New Roman", Times, serif;
   max-width: 600px;
 }
+
+/* footer */
+
+.footer {
+  padding: 40px 0;
+  background: #000;
+  color: #fff;
+}
+
+.footer h3 {
+  font-style: normal;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 15px;
+  color: #fec63e;
+}
+
+.footer h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fec63e;
+  margin: 6px auto 12px 2px;
+}
+
+.nossa_historia {
+  max-width: 400px;
+}
+
+.nosso_contato {
+  font-size: 14px;
+}
+.rede_social ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.rede_social ul li a {
+  border: 3px solid #fec63e;
+  display: block;
+  padding: 10px;
+}
+
+.copy {
+  width: 100%;
+  background: #fec63e;
+  padding: 20px 0;
+}
